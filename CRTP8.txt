@@ -1,0 +1,14 @@
+CRTP8
+
+[a] Pour représenter un ensemble de joueurs : type structure nommé ensemble_joueurs
+Joueur représenté par un type structure nommé joueur.
+Cardinal max de l'ensemble : 100
+Taille nom joueur : 32
+
+[b] cf. Makefile + graphe de dépendance
+
+[c] cf. joueurs.c
+
+[d] cf. joueurs_out.c
+
+[e] $make pour vérifier que le Makefile est correct
