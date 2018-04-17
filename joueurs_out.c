@@ -1,7 +1,7 @@
 #ifndef __JOUEURS_OUT_H__
 #define __JOUEURS_OUT_H__
 #include <stdio.h>
-#include "joueurs.h"
+#include "joueurs_out.h"
 
 void ecrire_les_joueurs(joueurs *ens, char *nom_fich) {
   FILE *fich = fopen(nom_fich,"w");
