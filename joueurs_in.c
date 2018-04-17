@@ -5,6 +5,7 @@
 
 void lire_les_joueurs(joueurs *ens, char *nom_fich){
 	FILE *fich=fopen(nom_fich,"r");
+	int i=0;
 	int card;
 	char *nom;
 	int billes;
