@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "joueurs.h"
 #include "joueurs_out.h"
 
 void ecrire_les_joueurs(joueurs *ens, char *nom_fich) {
