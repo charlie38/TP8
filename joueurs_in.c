@@ -6,7 +6,7 @@
 void lire_les_joueurs(joueurs *ens, char *nom_fich){
 	FILE *fich=fopen(nom_fich,"r");
 	int card;
-	char *nom;
+	char nom[TAILLE_MAX_NOM] = "";
 	int billes;
 
 	/* on lit la 1ère ligne (cardinal) et on met à jour ens */
