@@ -12,3 +12,6 @@ Taille nom joueur : 32
 [d] cf. joueurs_out.c
 
 [e] $make pour vérifier que le Makefile est correct
+
+[f] Lorsqu'on lit l'ensemble des joueurs dans un fichier,ce fichier est écrasé en sortie du programme.
+$ ls -l Fichier_Joueurs (pour le vérifier)
